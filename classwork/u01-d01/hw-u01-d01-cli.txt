@@ -1,0 +1,35 @@
+### set up:
+
+1. open terminal
+2. navigate to the path `~/ga` (cd ga)
+3. create a new directory called `simpsons` (mkdir simpsons)
+4. create a directory called `springfield` and 'cd' into it (cd simpsons, mkdir springfield, cd springfield)
+5. create the following files in your `springfield` folder (touch {homer,marge,bart,lisa,maggie}.txt)
+
+### remaking the intro:
+
+1a. create a directory called `school` (mkdir school)
+1b. move `bart.txt`(mv bart.txt school)
+
+2a. create a directory `power-plant` (mkdir power-plant)
+2b. move `homer.txt` into it (mv homer.txt power-plant)
+
+3. echo 'Work pass: Homer J. Simpson' >> Homer.txt
+
+4a. create a `market` directory (cd ../ then mkdir market)
+4b. move marge and maggie inside it (mv marge.txt market then mv maggie.txt market)
+
+5a. traverse to the `school` directory (cd school)
+5b. create a `band-room` directory (mkdir band-room)
+5c. move `lisa.txt` into the `band-room` directory (cd ../.. then mv lisa.txt school then cd school then mv lisa.txt band-room)
+
+6a. traverse back to the `springfield` directory (cd ../)
+6b. create the directories for the each mode of transportation (mkdir pink-car then mkdir red-car then mkdir skateboard)
+6c. place each respective party in that directory
+    --> marge & maggie: cd market then mv *.txt ../red-car
+    --> homer: cd power-plant then mv homer.txt ../pink-car
+    --> bart: cd school mv bart.txt ../skateboard
+
+7a. create a `home` directory inside of `springfield` (mkdir home)
+7b. create a `couch` directory within `home` (cd home then mkdir couch then cd couch then in couch pwd (then copy it for 7b))
+7c. move ALL of the family members to `couch` (cd ../.. then mv pink-car/*.txt red-car/*.txt skateboard/*.txt home/couch/)
