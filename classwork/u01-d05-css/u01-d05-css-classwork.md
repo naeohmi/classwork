@@ -1,4 +1,4 @@
-# CSS Practice
+# CSS Practice (child-selectors and specificity)
 
 ## Part 1 - Child Selectors 
 
@@ -14,13 +14,13 @@
 -Q4: Write the appropriate css to target only the `p` elements that are not only siblings of the `h2` but also immediately follow the `h2`.  Also what category of selector is this?
 -A4: ` h2 + p { } ` category: adjacent sibling selector 
 
-## Part 2 - Specificty
+## Part 2 - Specificity
 
 ### Remember: Inline / ID / Classes & Pseudo-Classes / tags
 
-Estimate what the folowing css specificty is for the following examples and then run them through the Specificty Calculator and compare the results:
+Estimate what the folowing css specificity is for the following examples and then run them through the Specificty Calculator and compare the results:
 
-| Q# | CSS | specificity-calcultor | 
+| Q# | CSS | specificity-calculator | 
 | --- | --- | --- |
 | 1 | li:first-child h2 .title | 0022 |
 | 2 | #nav .selected > a:hover | 0121
