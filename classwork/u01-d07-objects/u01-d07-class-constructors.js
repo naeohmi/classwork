@@ -31,23 +31,7 @@ class Kar {
 			console.log(`Idle status is: ${this.idle}`);
 		}
 	}
-
 }
-
-// class Scooter {
-// 	constructor(color, year, idle) {
-// 		this.color = color;
-// 		this.year = year;
-// 		this.idle = false;
-// 	}
-// 	getColor() {
-// 		console.log(this.color);
-// 	}
-// 	start() {
-// 		new Kar('green', '1998', true);
-// 	}
-// }
-
 
 var tesla = new Kar('electric', '2017', 'blue', 'Naomi', 'Meyer', false);
 tesla.getOwner();
@@ -55,8 +39,7 @@ tesla.start();
 
 class World {
 	constructor(car) {
-		// this.scooter = new Scooter;
-		this.car = new Kar;
+		this.car = new Kar('v8', '2016', 'green', 'Patrick', "andre", true);
 	}
 	getKar() {
 		console.log(this.car);
@@ -64,7 +47,3 @@ class World {
 }
 let earth = new World(tesla);
 earth.getKar();
-
-
-
-
