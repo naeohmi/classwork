@@ -6,8 +6,8 @@ class Kar {
 		this.color = color;
 		this.owner = {
 			firstName: firstName,
-			lastName: lastName,
-		}
+			lastName: lastName
+		};
 		this.idle = false;
 	}
 	getYear() {
