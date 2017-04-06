@@ -1,0 +1,33 @@
+body {
+  font: 16px/1.4 Helvetica, Arial, sans-serif;
+  background-color: #333;
+}
+.operation {
+  background-color: white;
+  margin: 0 auto;
+  padding: 10px;
+  width: 400px;
+}
+.board {
+    position: absolute;
+}
+.bread {
+    position: relative;
+    bottom: 145px;
+    left: 190px;
+}
+.butterflies {
+    position: relative;
+    bottom: 245px;
+    left: 180px;
+}
+.wishbone {
+    position: relative;
+    bottom: 370px;
+    left: 95px;
+}
+.heart {
+    position: relative;
+    bottom: 365px;
+    left: 110px;
+}
