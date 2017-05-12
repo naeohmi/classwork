@@ -19,10 +19,8 @@ ReactDOM.render(
     {/*calls/initializes the hello class from the App.js file*/}
     <Hello />
         {/*calls/initializes the hello class from the App.js file*/}
-  </div>
+  </div>,
     {/*closes the div tag*/}
-  <App />,
-  {/*opens and closes the App.js file*/}
   document.getElementById('root')
   {/*instructs where to render the content*/}
 );
